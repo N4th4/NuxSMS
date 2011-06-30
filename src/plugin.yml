@@ -1,0 +1,5 @@
+name: NuxSMS
+
+main: com.bukkit.N4th4.NuxSMS.NuxSMS
+
+version: 1.0
