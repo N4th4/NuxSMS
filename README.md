@@ -1,7 +1,7 @@
 NuxSMS
 =======
 
-NuxStats that warn people when they don't speak well
+NuxSMS is a plugin that warn people when they don't speak well
 
 Installation
 ------------
