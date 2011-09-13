@@ -1,4 +1,4 @@
-package com.bukkit.N4th4.NuxSMS;
+package net.n4th4.bukkit.nuxsms;
 
 import org.bukkit.event.player.PlayerChatEvent;
 import org.bukkit.event.player.PlayerListener;
