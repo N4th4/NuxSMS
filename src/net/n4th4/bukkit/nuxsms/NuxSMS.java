@@ -14,11 +14,13 @@ import org.bukkit.util.config.Configuration;
 
 public class NuxSMS extends JavaPlugin {
     private final NSPlayerListener playerListener = new NSPlayerListener(this);
-    public final Logger            log            = this.getServer().getLogger();
+    public Logger                  log;
     public String                  message        = "";
     public Pattern                 regex          = Pattern.compile(".*(MDR)|(LOL).*", Pattern.CASE_INSENSITIVE);
 
     public void onEnable() {
+        log = this.getServer().getLogger();
+
         loadConfig();
 
         PluginManager pm = getServer().getPluginManager();
